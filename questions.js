@@ -962,14 +962,5 @@ questions = [
             "govt": -10,
             "scty": -10
         }
-    },
-	 {
-        "question": "wsdf.",
-        "effect": {
-            "econ": -10,
-            "dipl": -10,
-            "govt": -10,
-            "scty": -10
-        }
     }
 ];
