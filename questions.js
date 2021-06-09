@@ -632,7 +632,7 @@ questions = [
 	{
         "question": "박정희 대통령은 헌정유린, 노동권 탄압, 인권 침해 등으로 한국 역사의 분명한 오명이다.",
         "effect": {
-            "econ": ,
+            "econ": 0,
             "dipl": 0,
             "govt": -5,
             "scty": 0
