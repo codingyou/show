@@ -136,7 +136,7 @@ img.center {
     }
 }
 .button {
-    background-color: #2196f3;
+    background-color: #262A2D;
     font-family: 'Jeju Gothic', 'Montserrat', sans-serif;
     border: none;
     border-radius: 8pt;
@@ -146,7 +146,7 @@ img.center {
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 24pt;
+    font-size: 22pt;
     margin: -2px auto;
     cursor: pointer;
 }
