@@ -1,14 +1,14 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 html {
-    background-color: #FBF8EF;
+    background-color: #000000;
     padding: 0px;
 }
 body {
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #FBF8EF;
+    background-color: #000000;
 }
 p {
     color: #444444;
@@ -23,11 +23,11 @@ p.value-description {
 }
 p.question {
     margin: 16pt auto;
-    color: #333333;
+    color: #ffffff;
     font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
     font-weight: normal;
     width: 70%;
-    background-color: #eeeeee;
+    background-color: #292929;
     padding: 16pt;
     border-radius: 16pt;
     display: flex;
@@ -37,7 +37,7 @@ p.question {
 
 }
 h1 {
-    color: #222222;
+    color: #ffffff;
     font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
     font-size: 5rem;
     text-align: center;
@@ -46,7 +46,7 @@ h1 {
     margin-bottom: 0pt;
 }
 h2 {
-    color: #333333;
+    color: #ffffff;
     font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
@@ -144,7 +144,7 @@ img.center {
     display: block;
     font-size: 20pt;
     margin: -2px auto;
-    cursor: pointer;
+    cursor: grab;
 }
 .small_button, .small_button_off {
     background-color: #333;
