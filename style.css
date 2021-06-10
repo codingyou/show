@@ -26,9 +26,10 @@ p.question {
     color: #ffffff;
     font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
     font-weight: 300;
-    width: 95%;
+    width: 100%;
     background-color: #292929;
-    padding: 16pt;
+    padding-top: 16pt;
+    padding-bottom: 16pt;
     border-radius: 15pt;
     display: flex;
     justify-content: center;
