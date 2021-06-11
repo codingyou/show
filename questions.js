@@ -11,19 +11,19 @@ questions = [
 	   {
         "question": "국민의힘과 같은 보수정당은 그 역할을 제대로 수행하고 있다.",
         "effect": {
-            "econ": 5,
-            "dipl": 5,
+            "econ": -10,
+            "dipl": 0,
             "govt": -5,
-            "scty": -5
+            "scty": -10
         }
     },
 	{
         "question": "더불어민주당과 같은 민주당계 정당은 그 역할을 제대로 수행하고 있다.",
         "effect": {
             "econ": 5,
-            "dipl": 0,
+            "dipl": -5,
             "govt": 5,
-            "scty": -5
+            "scty": -10
         }
     },
 	{
@@ -32,7 +32,7 @@ questions = [
             "econ": 10,
             "dipl": -10,
             "govt": 10,
-            "scty": -5
+            "scty": 10
         }
     },
 	{
@@ -83,7 +83,7 @@ questions = [
 	{
         "question": "안정적인 경제 지표(GDP,GDI 등)를 만드는 것이 부정적인 사회 지표(자살율, 노인빈곤율 등)를 줄이는 것보다 우선시되어야 한다.",
         "effect": {
-            "econ": -10,
+            "econ": -5,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -94,7 +94,7 @@ questions = [
         "effect": {
             "econ": 10,
             "dipl": 0,
-            "govt": 0,
+            "govt": 5,
             "scty": 10
         }
     },
@@ -110,9 +110,9 @@ questions = [
     {
         "question": "국제 무역에 대한 관세는 국내 생산을 장려하기 위해 중요하다.",
         "effect": {
-            "econ": 5,
+            "econ": -10,
             "dipl": 0,
-            "govt": -10,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -198,18 +198,18 @@ questions = [
         }
     },
     {
-        "question": "더​ ​많은​ ​돈을​ ​지불할​ ​능력이​ ​있는​ ​사람들은​ ​더​ ​좋은​ 의료 서비스를 ​받을​ ​수​ ​있어야​ ​한다.",
+        "question": "부유한 사람이 입학할 수 있게 하는 기여입학제는 도입되어야 한다.",
         "effect": {
             "econ": -10,
             "dipl": 0,
-            "govt": 0,
+            "govt": 5,
             "scty": 0
         }
     },
     {
         "question": "우리나라는 내수시장을 강화하여 외국 경제 의존도를 낮추어야 한다.",
         "effect": {
-            "econ": 10,
+            "econ": 1,
             "dipl": 5,
             "govt": 0,
             "scty": 0
@@ -282,9 +282,9 @@ questions = [
         "question": "국기에 대한 경례는 파시즘석 사고에 기반한 군대의식이다.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
-            "govt": -5,
-            "scty": 0
+            "dipl": 0,
+            "govt": 10,
+            "scty": 5
         }
     },
     {
@@ -327,7 +327,7 @@ questions = [
         "question": "다른 국가들에게 (자국의) 전쟁을 정당화 할 필요는 없다.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": -5,
             "govt": -10,
             "scty": 0
         }
@@ -354,7 +354,7 @@ questions = [
         "question": "우리나라는​ ​위대하다.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": -3,
             "govt": 0,
             "scty": 0
         }
@@ -372,7 +372,7 @@ questions = [
         "question": "연구는​ ​국제적​ ​규모로​ ​이루어져야​ ​한다.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": 5,
             "govt": 0,
             "scty": 10
         }
@@ -401,7 +401,7 @@ questions = [
             "econ": 0,
             "dipl": -10,
             "govt": 0,
-            "scty": 0
+            "scty": -5
         }
     },
     {
@@ -489,9 +489,9 @@ questions = [
         "question": "외국인 노동자의 국내 취업을 장려하여야 한다.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": 5,
             "govt": 0,
-            "scty": 10
+            "scty": 5
         }
     },
     {
@@ -509,7 +509,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": -10,
-            "scty": 0
+            "scty": -5
         }
     },
   {
@@ -571,7 +571,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
+            "govt": -2,
             "scty": 0
         }
     },
@@ -580,7 +580,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 10,
+            "govt": 2,
             "scty": 0
         }
     },
@@ -643,7 +643,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": 10,
             "scty": 0
         }
     },
@@ -661,7 +661,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": -10,
             "scty": 0
         }
     },
@@ -689,7 +689,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 10,
-            "scty": 5
+            "scty": 10
         }
     },
     {
@@ -733,7 +733,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": -8,
             "scty": 0
         }
     },
@@ -778,7 +778,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 0,
+            "govt": 3,
             "scty": 10
         }
     },
@@ -796,7 +796,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": -10,
             "scty": -10
         }
     },
@@ -832,12 +832,12 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "govt": 5,
+            "govt": 10,
             "scty": 10
         }
     },
     {
-        "question": "결혼 이외의 성관계는 부도덕하다.",
+        "question": "혼전 성관계는 부도덕하다.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -868,7 +868,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -2,
+            "govt": 3,
             "scty": 0
         }
     },
@@ -914,7 +914,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 0,
+            "govt": -5,
             "scty": -10
         }
     },
@@ -932,7 +932,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 0,
+            "govt": 5,
             "scty": 10
         }
     },
