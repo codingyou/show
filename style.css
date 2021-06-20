@@ -8,7 +8,7 @@
     border-radius: 4pt;
     color: white;
     padding: 8pt;
-    width: 40%;
+    width: 208pt;
     text-align: center;
     text-decoration: none;
     display: block;
@@ -21,6 +21,8 @@ input[type=text] {
   background-color: #3CBC8D;
   font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
   color: white;
-  height : 100pt;
+  width:200pt;
+  height : 40pt;
   font-size : 20pt;
+  text-align : center
 }
